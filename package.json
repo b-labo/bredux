@@ -1,0 +1,48 @@
+{
+  "name": "bredux",
+  "version": "1.0.0",
+  "description": "B flavour redux",
+  "main": "lib",
+  "browser": "shim/browser",
+  "scripts": {
+    "test": "./ci/test.js",
+    "prepublish": "./ci/build.js && ./ci/browser.js"
+  },
+  "repository": "b-labo/bredux",
+  "keywords": [
+    "recux"
+  ],
+  "author": {
+    "name": "Taka Okunishi",
+    "email": "okunishitaka.com@gmail.com",
+    "url": "http://okunishitaka.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/b-labo/bredux/issues"
+  },
+  "homepage": "https://github.com/b-labo/bredux#readme",
+  "dependencies": {
+    "co": "^4.6.0"
+  },
+  "devDependencies": {
+    "amocha": "^1.0.14",
+    "ape-doc": "^2.0.4",
+    "ape-formatting": "^1.0.2",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.8",
+    "ape-tmpl": "^5.0.15",
+    "ape-updating": "^4.0.5",
+    "coz": "^6.0.17",
+    "injectmock": "^2.0.0",
+    "redux": "^3.5.2"
+  },
+  "engines": {
+    "node": ">=6",
+    "npm": ">=3"
+  },
+  "peerDependencies": {
+    "redux": ">=3"
+  }
+}
