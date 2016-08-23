@@ -105,6 +105,7 @@ Available functions
 | Signature | Description |
 | ---- | ----------- |
 | `hook(store, handlers) -> function` | Add hook on store. |
+| `persistize()` | Define hook to persist in local storage |
 
 
 <!-- Section from "doc/guides/03.Functions.md.hbs" End -->

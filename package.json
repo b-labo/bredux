@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/b-labo/bredux#readme",
   "dependencies": {
+    "bstorage": "^1.0.0",
     "co": "^4.6.0"
   },
   "devDependencies": {
