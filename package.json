@@ -1,12 +1,12 @@
 {
   "name": "bredux",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "B flavour redux",
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
     "test": "node ./ci/test.js",
-    "prepublish": "node ./ci/build.js && node ./ci/browser.js"
+    "prepublish": "node ./ci/build.js && node ./ci/shim.js"
   },
   "repository": "b-labo/bredux",
   "keywords": [
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/b-labo/bredux#readme",
   "dependencies": {
-    "bstorage": "^1.0.0",
+    "bstorage": "^1.0.1",
     "co": "^4.6.0"
   },
   "devDependencies": {
