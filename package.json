@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/b-labo/bredux#readme",
   "dependencies": {
-    "bstorage": "^1.0.1",
+    "bstorage": "^1.1.0",
     "co": "^4.6.0"
   },
   "devDependencies": {
-    "ababel": "^1.1.10",
+    "ababel": "^1.1.12",
     "ababel-es2015": "^1.0.8",
     "amocha": "^1.0.15",
     "ape-doc": "^2.0.4",
