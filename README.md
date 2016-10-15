@@ -104,6 +104,7 @@ Available functions
 
 | Signature | Description |
 | ---- | ----------- |
+| `devTool()` |  |
 | `hook(store, handlers) -> function` | Add hook on store. |
 | `persistize(keys, options)` | Define hook to persist in local storage |
 
