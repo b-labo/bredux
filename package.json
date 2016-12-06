@@ -1,6 +1,6 @@
 {
   "name": "bredux",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "B flavour redux",
   "main": "lib",
   "browser": "shim/browser",
