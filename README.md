@@ -101,7 +101,7 @@ Available functions
 
 | Signature | Description |
 | ---- | ----------- |
-| `create(reducer, preloadedState, middleware) -> Object` | Create a store |
+| `create(reducer, preloadedState, enhancers) -> Object` | Create a store |
 | `devTool()` |  |
 | `hook(store, handlers) -> function` | Add hook on store. |
 | `persistize(keys, options)` | Define hook to persist in local storage |
