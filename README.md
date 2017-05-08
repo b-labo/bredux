@@ -101,6 +101,8 @@ Available functions
 
 | Signature | Description |
 | ---- | ----------- |
+| `applyMiddleware(middlewares) -> function` | Apply middlewares |
+| `combineReducers(reducers) -> function` | Combine reducers |
 | `create(reducer, preloadedState, enhancers) -> Object` | Create a store |
 | `devTool()` |  |
 | `hook(store, handlers) -> function` | Add hook on store. |
