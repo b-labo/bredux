@@ -11,17 +11,17 @@ const co = require('co')
 describe('dev-tool', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Dev tool', () => co(function * () {
+  it('Dev tool', () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

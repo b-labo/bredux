@@ -11,18 +11,18 @@ const co = require('co')
 describe('create', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Create', () => co(function * () {
+  it('Create', () => {
     let store = create(() => {})
     assert.ok(store)
-  }))
+  })
 })
 
 /* global describe, before, after, it */

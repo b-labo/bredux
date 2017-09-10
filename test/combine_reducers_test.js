@@ -11,17 +11,17 @@ const co = require('co')
 describe('combine-reducers', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Combine reducers', () => co(function * () {
+  it('Combine reducers', () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */

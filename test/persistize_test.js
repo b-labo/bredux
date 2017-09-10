@@ -11,19 +11,19 @@ const co = require('co')
 describe('persistize', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Persistize', () => co(function * () {
+  it('Persistize', () => {
     let handlers = persistize(['foo', 'bar'])
     assert.ok(handlers.foo)
     assert.ok(handlers.bar)
-  }))
+  })
 })
 
 /* global describe, before, after, it */

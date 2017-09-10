@@ -11,17 +11,17 @@ const co = require('co')
 describe('apply-middleware', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(() => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(() => {
 
-  }))
+  })
 
-  it('Apply middleware', () => co(function * () {
+  it('Apply middleware', () => {
 
-  }))
+  })
 })
 
 /* global describe, before, after, it */
