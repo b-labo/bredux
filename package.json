@@ -1,6 +1,6 @@
 {
   "name": "bredux",
-  "version": "2.0.1",
+  "version": "3.0.1",
   "description": "B flavour redux",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,27 +23,26 @@
   },
   "homepage": "https://github.com/b-labo/bredux#readme",
   "dependencies": {
-    "bstorage": "^1.1.1"
+    "bstorage": "^2.0.1"
   },
   "devDependencies": {
-    "ababel": "^2.0.1",
-    "ababel-es2015": "^2.0.1",
-    "amocha": "^2.0.0",
+    "ababel": "^4.0.8",
+    "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
-    "ape-tmpl": "^6.0.0",
+    "ape-tmpl": "^6.0.10",
     "ape-updating": "^4.1.1",
-    "coz": "^6.0.20",
+    "coz": "^7.0.1",
     "injectmock": "^2.0.0",
-    "redux": "^3.5.2"
+    "redux": "^4.0.0"
   },
   "engines": {
-    "node": ">=7.6",
-    "npm": ">=4"
+    "node": ">=8",
+    "npm": ">=5"
   },
   "peerDependencies": {
-    "redux": "3.x"
+    "redux": ">=4"
   }
 }
