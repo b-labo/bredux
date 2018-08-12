@@ -1,6 +1,6 @@
 {
   "name": "bredux",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "B flavour redux",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/b-labo/bredux#readme",
   "dependencies": {
-    "bstorage": "^2.0.1"
+    "bstorage": "^2.0.2"
   },
   "devDependencies": {
     "ababel": "^5.0.3",
