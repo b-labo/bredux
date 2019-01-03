@@ -1,6 +1,6 @@
 {
   "name": "bredux",
-  "version": "3.0.6",
+  "version": "3.0.7",
   "description": "B flavour redux",
   "main": "lib",
   "browser": "shim/browser",
@@ -26,7 +26,7 @@
     "bstorage": "^2.0.3"
   },
   "devDependencies": {
-    "ababel": "^5.0.6",
+    "ababel": "^5.0.8",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
